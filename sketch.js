@@ -14,5 +14,5 @@ function draw() {
   var b = random( 0 , 255);
   var a = random( 0 , 200);
   ellipse( x , y , d , d);
-    fill( r , g , b , 100 );
+    fill( r , g , b , a );
 }
