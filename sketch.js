@@ -9,10 +9,11 @@ function draw() {
   var x = random( 0 , windowWidth );
   var y = random( 0 , windowHeight);
   var d = random( 0 , 125);
+  var f = random( 0 , 125);
   var r = random( 0 , 255);
   var g = random( 0 , 255);
   var b = random( 0 , 255);
   var a = random( 0 , 200);
-  rect( x , y , d , d);
-    fill( r , g , b , 100 );
+    rect( x , y , d , d);
+     fill( r , g , b , 100 );
 }
