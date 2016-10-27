@@ -14,6 +14,6 @@ function draw() {
   var g = random( 0 , 255);
   var b = random( 0 , 255);
   var a = random( 0 , 200);
-    rect( x , y , d , d);
+    rect( x , y , d , f);
      fill( r , g , b , 100 );
 }
