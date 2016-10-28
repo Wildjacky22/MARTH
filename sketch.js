@@ -14,6 +14,6 @@ function draw() {
   var g = random( 0 , 255);
   var b = random( 0 , 255);
   var a = random( 0 , 200);
-    ellipse( x , y , d , f);
+    rect( x , y , d , f);
      fill( r , g , b , 100 );
 }
